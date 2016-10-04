@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F4EC00;
+	font-family: 'Roboto';
+	
+}
+
+header {
+	height: 500px;
+	background-image: url(Images/YC_Banner.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: top;
+}
+
+#logo {
+	max-width: 2em;
+}
+
+#arrowUp {
+	text-decoration: none;
+	font-size: 50px;
+	color: #363636;
+}
+
+ul {
+	width: 100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+	position: fixed;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+	font-family: 'Roboto';
+	font-weight: 100;
+}
+
+#homeLink:hover {
+	background-color: transparent;
+}
+
+ul.topnav li a:hover {
+	background-color: #111;
+}
+
+ul.topnav li.icon {
+	display: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: #363636;
+	font-weight: 300;
+}
+
+hr {
+	max-width: 80%;
+	color: #363636;
+}
+
+main {
+	height: 800px;
+}
+
+#about {
+	max-width: 600px;
+	margin: 0 auto;
+	display: block;
+}
+
+#tour {
+	max-width: 600px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+p {
+	display: block;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 2em;
+	color: #333;
+}
+
+
+@media screen and (max-width:780px) {
+	
+	header {
+		height: 500px;
+		background-image: url(Images/yellow-claw-shotgun-ft-rochelle_7785433-00_1280x720.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		width: 100%;
+		background-position: top;
+}
+		
+	ul.topnav {
+	position: inherit;
+	background-color: #333;
+}
+	
+  ul.topnav li:not(:first-child) {
+	  display: none;
+  }
+	
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }	
+  ul.topnav.responsive {
+	  position: relative;
+  }
+	
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+	
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+	
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  
+	
+}
