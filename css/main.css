@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F4EC00;
+	font-family: 'Roboto';
+	
+}
+
+header {
+	height: 500px;
+	background-image: url(Images/YC_Banner.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: top;
+}
+
+#logo {
+	max-width: 2em;
+}
+
+ul {
+	width: 100%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+	position: fixed;
+	height: 53px;
+	
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+	font-weight: 100;
+}
+
+#homeLink:hover {
+	background-color: transparent;
+}
+
+ul.topnav li a:hover {
+	background-color: #111;
+}
+
+ul.topnav li.icon {
+	display: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: #363636;
+	font-weight: 300;
+}
+
+hr {
+	max-width: 80%;
+	border-color: #333;
+	border-bottom-color: #F4EC00;
+}
+
+main {
+	height: 800px;
+}
+
+#about {
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+}
+
+#tour {
+	max-width: 300px;
+	margin: 0 auto;
+	display: block;
+	margin: 2em;
+}
+
+#tour ul li {
+	 text-decoration: none;
+}
+
+p {
+	display: block;
+	font-size: 18px;
+	margin: 0 auto;
+	padding: 2em;
+	color: #333;
+	max-width: 800px;
+}
+
+
+@media screen and (max-width:780px) {
+	
+	
+		
+	ul.topnav {
+	position: inherit;
+	background-color: #333;
+}
+	
+  ul.topnav li:not(:first-child) {
+	  display: none;
+  }
+	
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }	
+  ul.topnav.responsive {
+	  position: relative;
+  }
+	
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+	
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+	
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  
+	
+}
