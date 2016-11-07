@@ -4,7 +4,6 @@
 // See http://www.php.net/manual/en/book.mysqli.php
 
 $mysqli = new mysqli('localhost', 'root', '', 'workbench');
-//$mysqli = new mysqli('localhost', '21897', 'fzikzqoc', '21897_world');
 
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: 
