@@ -15,9 +15,5 @@ define('DB_NAME','workbench');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','---');
 
-//define('DB_HOST','localhost');
-//define('DB_NAME','21897_world');
-//define('DB_USERNAME','21897');
-//define('DB_PASSWORD','fzikzqoc');
 
 ?>
